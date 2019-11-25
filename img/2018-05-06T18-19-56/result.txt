@@ -1,0 +1,4 @@
+成功
+Database DDLS allows consistency constraints to be specified, which
+programming language type systems generally do not allow These
+include domain constraints and referential integrity constraints

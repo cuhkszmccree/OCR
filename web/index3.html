@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block jscontent %}
+
+{% end %}
+
+{% block content %}
+<div class="ui container">
+    <div class="ui segment">
+        <form class="ui form" action='./' enctype="multipart/form-data" method='post'>
+            <div class="field">
+                <textarea rows="3" cols="120">有任何问题请在这里提交反馈</textarea>
+            </div>
+        <button class="ui button" type="submit">确认提交</button>
+        </form>
+    </div>
+
+</div>
+{% end %}
